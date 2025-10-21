@@ -1,0 +1,21 @@
+accounts.php - list of accounts page
+booking.php - booking page (available to everyone except admin)
+cashin.php - cash in page (available to everyone except admin)
+cashout.php - cash out page (available to everyone except admin)
+conn_db.php - connection (change to the name of your db)
+homepage.php - homepage after login
+id.php - id change page (only available for users that registered using other types of id(notdrivers license))
+index.php - login page
+logout.php - logout page
+mycar.php - view current cars that are pending anda accepted(available only for people that registered using a drivers license)
+password.php - change password(available for everyone)
+profile.php - view profile page(available for everyone)
+register.php - car registration page (available only for people that registered using a drivers license)
+registeraccout.php - registration of account 
+report.php - reports of daily transaction (avail to admin only)
+route.php - route page (avail only to drivers)
+transaction.php - confirmation page for transactions(cashin/cashout) (avail only to admin)
+ver.php - my way of processing login, required to every page, used to get user level and balance real time 
+verify.php - page for verifying registration email (vercode that is sent to your email upon registration)
+viewregister.php - view car application (avail to admin only)
+waiting.html - redirected when a not verified user logged in.
